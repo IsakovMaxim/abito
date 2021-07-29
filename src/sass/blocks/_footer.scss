@@ -1,0 +1,26 @@
+.footer {
+    &__text {
+        font-size: 14px;
+        line-height: 16px;
+        color: #C4C4C4;
+        margin: 0;
+        margin-top: 18px;
+    }
+    &__menu {
+        padding: 0;
+        margin: 0;
+    }
+    &__menu-item {
+        list-style: none;
+        margin-top: 5px;
+    }
+    .links {
+        margin-top: 16px;
+    }
+    &__link {
+        font-size: 12px;
+        line-height: 14px;
+        text-decoration: none;
+        color: #000000
+    }
+}

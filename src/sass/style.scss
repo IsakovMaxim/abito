@@ -2,8 +2,11 @@
 @import 'blocks/container';
 @import 'blocks/header';
 @import 'blocks/search-panel';
+@import 'blocks/main-page';
+@import 'blocks/footer';
 
 
 body {
     font-family: 'Roboto', sans-serif;
+    padding-bottom: 70px;
 }
