@@ -1,0 +1,107 @@
+.page-content {
+    &__main-content {
+        max-width: 460px;
+        margin-right: 30px;
+    }
+    &__title {
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
+    &__descr-title{
+        margin-top: 15px;
+        margin-bottom: 0;
+        display: block;
+        color: $main-color;
+        font-size: 24px;
+        line-height: 28px;
+        font-weight: bold;
+    }
+    &__descr-text {
+        font-size: 14px;
+        line-height: 140%;
+        color: $main-color;
+    }
+    &__avatar {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    &__main_single {
+        display: flex;
+        align-items: flex-start;
+    }
+    &__price {
+        display: block;
+        margin-top: 0;
+        margin-bottom: 25px;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        color: $main-color;
+    }
+
+    // настройка блока автора
+    &__author {        
+        min-width: 264px;
+    }
+    &__author-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;        
+        margin-top: 25px;
+        margin-bottom: 30px;
+    }
+    &__author-name {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+        color: $main-color;
+    }
+    &__author-reviews {
+        font-size: 14px;
+        line-height: 16px;
+        color: $main-color;
+        opacity: 0.5;
+        margin-left: 10px;
+    }
+    &__author-raiting {        
+        margin-top: 7px;
+    }
+    &__author-status {
+        font-size: 12px;
+        line-height: 14px;
+        color: $main-color;
+        margin-top: 5px;
+    }
+    
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+    height: 54px;
+    margin-bottom: 14px;
+    width: 264px;
+    height: 54px;
+    background: #256EEB;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    &:nth-child(2) {
+        background: #14B4BE;
+    }
+}
+
+.main-sidebar__promo {
+    width: 264px;
+    height: 185px;
+    margin-bottom: 7px;
+    &:nth-child(2) {
+        margin-bottom: 25px;
+    }
+}
+
+
