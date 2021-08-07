@@ -1,5 +1,10 @@
 .header {
 	padding-top: 30px;	
+	&__navbar-panel {
+		display: flex;
+		flex-grow: 1;
+		align-items: center;
+	}
 	&__navbar {
 		display: flex;
 		align-items: center;
@@ -36,6 +41,22 @@
 		border-radius: 5px;
 		color: #FFFFFF;
 		cursor: pointer;
+	}
+	// НАСТРОЙКА БУРГЕРА
+	&__burger {
+		background-color: #fff;
+		border: none;
+		cursor: pointer;
+		display: none;
+	}
+	&__close-burger {
+		display: none;
+		background-color: #FFFFFF;
+		border: none;
+		&-img {
+			height: 35px;
+			width: 35px;
+		}
 	}
 		
 }
