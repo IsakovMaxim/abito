@@ -85,6 +85,35 @@
             right: 50px;
             top: 50px;
         }
+        &__button-group{
+            margin-top: 30px;
+        }
+        &__logo-burger {
+            display: block;
+            margin-top: 50px;
+        }
+        &__logo-burger-block {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        &__logo-brgr-text {
+            margin-top: 8px;
+            color: $main-color;
+            font-size: 15px;
+            line-height: 15px;
+            text-decoration: none;
+            text-align: center;
+        }
+        &__logo-burger-support {
+            margin-top: 15px;
+            color: $main-color;
+            font-size: 15px;
+            font-weight: bold;
+            text-decoration: underline;
+            text-align: center;
+        }
     }
     .is-open {
         transform: translateX(0%);
